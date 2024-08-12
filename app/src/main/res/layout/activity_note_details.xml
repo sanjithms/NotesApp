@@ -60,6 +60,7 @@
             android:textStyle="bold"
             android:layout_marginVertical="8dp"
             android:textColor="#000000"
+            android:inputType="textCapWords|textShortMessage"
             android:padding="12dp"/>
         <TextView
             android:layout_width="match_parent"
@@ -78,6 +79,7 @@
             android:layout_marginVertical="8dp"
             android:textColor="#000000"
             android:padding="12dp"
+            android:inputType="textMultiLine|textCapSentences|textImeMultiLine"
             android:minLines="15"
             android:gravity="top"/>
 

@@ -21,6 +21,6 @@ public class utility {
 
     }
     static String timetotimestam(Timestamp timestamp){
-         return new SimpleDateFormat("DD/MM/YYYY").format(timestamp.toDate());
+         return new SimpleDateFormat("dd/MM/yyyy  HH:mm").format(timestamp.toDate());
     }
 }
